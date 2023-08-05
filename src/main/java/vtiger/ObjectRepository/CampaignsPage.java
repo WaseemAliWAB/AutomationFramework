@@ -1,0 +1,31 @@
+package vtiger.ObjectRepository;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class CampaignsPage {
+	
+	@FindBy(xpath = "//img[@src=\"themes/softed/images/btnL3Add.gif\"]")
+	private WebElement CreateCamLookUpImg;
+	
+	public CampaignsPage(WebDriver driver)
+	{
+		PageFactory.initElements(driver, this);
+	}
+
+	public WebElement getCreateCamLookUpImg() {
+		return CreateCamLookUpImg;
+	}
+	
+	//Business Library
+	/**
+	 * This method will click on Create campaign look up image
+	 */
+	public void clickOnCreateCamLookUpImg()
+	{
+		CreateCamLookUpImg.click();
+	}
+	
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-02T20:17:21 IST" name="Suite" finished-at="2023-08-02T20:17:52 IST" duration-ms="30882">
+    <groups>
+      <group name="RegressionSuite">
+        <method signature="CreateOrganizationWithIndustryTypeTest.createOrgWithIndustryTypeTest()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationWithIndustryTypeTest@4c60d6e9]" name="createOrgWithIndustryTypeTest" class="vtiger.OrganizationTests.CreateOrganizationWithIndustryTypeTest"/>
+      </group> <!-- RegressionSuite -->
+    </groups>
+    <test started-at="2023-08-02T20:17:21 IST" name="Test" finished-at="2023-08-02T20:17:52 IST" duration-ms="30882">
+      <class name="vtiger.OrganizationTests.CreateOrganizationWithIndustryTypeTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationWithIndustryTypeTest@4c60d6e9]" started-at="2023-08-02T20:17:21 IST" name="bsConfig" finished-at="2023-08-02T20:17:21 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationWithIndustryTypeTest@4c60d6e9]" started-at="2023-08-02T20:17:22 IST" name="bcConfig" finished-at="2023-08-02T20:17:27 IST" duration-ms="5142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationWithIndustryTypeTest@4c60d6e9]" started-at="2023-08-02T20:17:27 IST" name="bmConfig" finished-at="2023-08-02T20:17:32 IST" duration-ms="4546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createOrgWithIndustryTypeTest()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationWithIndustryTypeTest@4c60d6e9]" started-at="2023-08-02T20:17:32 IST" name="createOrgWithIndustryTypeTest" finished-at="2023-08-02T20:17:49 IST" duration-ms="17650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustryTypeTest -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationWithIndustryTypeTest@4c60d6e9]" started-at="2023-08-02T20:17:49 IST" name="amconfig" finished-at="2023-08-02T20:17:52 IST" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationWithIndustryTypeTest@4c60d6e9]" started-at="2023-08-02T20:17:52 IST" name="acConfig" finished-at="2023-08-02T20:17:52 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationWithIndustryTypeTest@4c60d6e9]" started-at="2023-08-02T20:17:53 IST" name="asConfig" finished-at="2023-08-02T20:17:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- vtiger.OrganizationTests.CreateOrganizationWithIndustryTypeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
