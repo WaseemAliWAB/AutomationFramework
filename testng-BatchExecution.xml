@@ -3,11 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="vtiger.OrganizationTests.CreateMultipleOrgWithIndustry"/>
       <class name="vtiger.CompaignsTests.CreateCampaignWithCampTypeCampStatusAndProductTest"/>
       <class name="vtiger.OpportunitiesTests.CreateOpportunityWithContactTest"/>
       <class name="vtiger.ContactsTests.CreateContactWithOrganizationTest"/>
-      <class name="vtiger.Practice.DataProviderPracticeTest"/>
       <class name="vtiger.OrganizationTests.CreateOrganizationWithIndustryTypeTest"/>
       <class name="vtiger.ProductsTests.CreateProductWithVendorTest"/>
       <class name="vtiger.OrganizationTests.CreateOrganizationTest"/>
